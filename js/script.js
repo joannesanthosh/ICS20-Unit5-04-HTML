@@ -19,14 +19,14 @@ if (navigator.serviceWorker) {
  */
 function convert() {
   // input
-  const day = document.getElementById("day").checked
+  const Saturday = document.getElementById("Saturday").value
+  const Sunday = document.getElementById("Sunday").value
+  const day = document.getElementById("days").checked
   const age = document.getElementById("age").checked
 
   // process
-  if (day == "Saturday" || day == "Sunday") || (age ==) {
-    document.getElementById("answer").innerHTML = "You can watch an R Rated movie alone."
-
-  // output
-  document.getElementById("celsius").innerHTML =
-    "<p>The  temperature in celsius is: " + celsius.toFixed(2) + "°<p>"
-}
+  if (day == "Saturday" || day == "Sunday") || (age > 5 && age < 80 ) {
+    document.getElementById("answer").innerHTML = "You're eligible to enter the museum."
+  } else {
+    document.getElementById("answer").innerHTML = "You're not eligible to enter the museum"
+  }
