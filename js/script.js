@@ -14,19 +14,15 @@ if (navigator.serviceWorker) {
   })
 }
 
-/**
- * This function tells the user if they are eligible to enter the museum
- */
-function convert() {
   // input
-  const Saturday = document.getElementById("Saturday").value
-  const Sunday = document.getElementById("Sunday").value
+function convert() {
   const day = document.getElementById("days").checked
   const age = document.getElementById("age").checked
 
   // process
-  if (day == "Saturday" || day == "Sunday") || (age > 5 && age < 80 ) {
+  if ((day == "Saturday" || day == "Sunday") || (age > 5 && age < 80 )) {
     document.getElementById("answer").innerHTML = "You're eligible to enter the museum."
   } else {
-    document.getElementById("answer").innerHTML = "You're not eligible to enter the museum"
+    document.getElementById("answer").innerHTML = "You're not eligible to enter the museum."
   }
+}
