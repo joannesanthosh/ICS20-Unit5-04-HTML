@@ -10,20 +10,20 @@
                 <mxCell id="3" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" parent="1" vertex="1">
                     <mxGeometry x="80" y="10" width="530" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Eligibility for Student Pricing&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="100" y="30" width="240" height="20" as="geometry"/>
+                <mxCell id="4" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Museum Eligibility&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="30" width="160" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="Please enter in your age" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=18;" parent="1" vertex="1">
-                    <mxGeometry x="90" y="110" width="210" height="30" as="geometry"/>
+                    <mxGeometry x="250" y="195" width="210" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="Choose the day of the week" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=18;" parent="1" vertex="1">
-                    <mxGeometry x="90" y="225" width="240" height="30" as="geometry"/>
+                    <mxGeometry x="250" y="242.13" width="240" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;left=0;fillColor=none;fontSize=18;" parent="1" vertex="1">
-                    <mxGeometry x="90" y="160" width="250" height="10" as="geometry"/>
+                    <mxGeometry x="229.72" y="225" width="250" height="10" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="Enter" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.shaded_button;dx=10;fillColor=#E6E6E6;strokeColor=none;fontSize=18;" parent="1" vertex="1">
-                    <mxGeometry x="110" y="328.38" width="140" height="40" as="geometry"/>
+                    <mxGeometry x="280" y="328.38" width="140" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="35" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="15" target="34">
                     <mxGeometry relative="1" as="geometry"/>
@@ -35,37 +35,40 @@
                     <mxGeometry x="170" y="420" width="80" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-                    <mxGeometry x="110" y="270" width="20" height="20" as="geometry"/>
+                    <mxGeometry x="220" y="291.25" width="20" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-                    <mxGeometry x="140" y="270" width="20" height="20" as="geometry"/>
+                    <mxGeometry x="260" y="292.5" width="20" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-                    <mxGeometry x="170" y="270" width="20" height="20" as="geometry"/>
+                    <mxGeometry x="290" y="292.5" width="20" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=15;" vertex="1" parent="1">
-                    <mxGeometry x="207.22" y="269.63" width="22.5" height="22.5" as="geometry"/>
+                    <mxGeometry x="330" y="290" width="22.5" height="22.5" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-                    <mxGeometry x="250" y="270" width="20" height="20" as="geometry"/>
+                    <mxGeometry x="370" y="290" width="20" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="32" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-                    <mxGeometry x="290" y="270" width="23.38" height="23.38" as="geometry"/>
+                    <mxGeometry x="414" y="288.31" width="23.38" height="23.38" as="geometry"/>
                 </mxCell>
                 <mxCell id="33" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-                    <mxGeometry x="335" y="272.13" width="20" height="20" as="geometry"/>
+                    <mxGeometry x="460" y="290" width="20" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="34" value="You are eligible to get into the museum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="290" y="390" width="120" height="30" as="geometry"/>
+                    <mxGeometry x="290" y="390" width="150" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="36" value="You are&amp;nbsp; not eligible to get into the museum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="290" y="430" width="120" height="30" as="geometry"/>
+                    <mxGeometry x="290" y="430" width="150" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-15;" vertex="1" parent="1">
-                    <mxGeometry x="414" y="210" width="120" height="40" as="geometry"/>
+                <mxCell id="42" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="285" y="90" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" value="$$$" style="rounded=0;whiteSpace=wrap;html=1;rotation=10;" vertex="1" parent="1">
-                    <mxGeometry x="424" y="220" width="120" height="40" as="geometry"/>
+                <mxCell id="43" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+                    <mxGeometry x="335" y="90" width="20" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="120" width="30" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
