@@ -9,20 +9,22 @@
  * Check servie worker.
  */
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS20-Unit6-01-PWA/sw.js", {
-    scope: "/ICS20-Unit6-01-PWA/",
+  navigator.serviceWorker.register("/ICS20-Unit5-04-HTML/sw.js", {
+    scope: "/ICS20-Unit5-04-HTML/",
   })
 }
 
 /**
- * This function converts the degrees from fahrenheit to celsius
+ * This function tells the user if they are eligible to enter the museum
  */
 function convert() {
   // input
-  const fahrenheit = parseInt(document.getElementById("fahrenheit").value)
+  const day = document.getElementById("day").checked
+  const age = document.getElementById("age").checked
 
   // process
-  const celsius = ((fahrenheit - 32) * 5) / 9
+  if (day == "Saturday" || day == "Sunday") || (age ==) {
+    document.getElementById("answer").innerHTML = "You can watch an R Rated movie alone."
 
   // output
   document.getElementById("celsius").innerHTML =

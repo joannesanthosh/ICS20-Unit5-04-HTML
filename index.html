@@ -49,43 +49,24 @@
               </form> 
               </div>
               <div>
-              <h5>Please choose one day of the week:</h5>
-              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
-                  <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="0" checked>
-                  <span class="mdl-radio__label">Sunday</span>
-              </label>
-              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
-                  <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="0">
-                  <span class="mdl-radio__label">Monday</span>
-              </label>
-              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-3">
-                  <input type="radio" id="option-3" class="mdl-radio__button" name="options" value="0" checked>
-                  <span class="mdl-radio__label">Tuesday</span>
-              </label>
-              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-4">
-                  <input type="radio" id="option-4" class="mdl-radio__button" name="options" value="0">
-                  <span class="mdl-radio__label">Wednesday</span>
-              </label>
-              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-5">
-                  <input type="radio" id="option-5" class="mdl-radio__button" name="options" value="0" checked>
-                  <span class="mdl-radio__label">Thursday</span>
-              </label>
-              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-6">
-                  <input type="radio" id="option-6" class="mdl-radio__button" name="options" value="0">
-                  <span class="mdl-radio__label">Friday</span>
-              </label>
-              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-7">
-                  <input type="radio" id="option-7" class="mdl-radio__button" name="options" value="0" checked>
-                  <span class="mdl-radio__label">Saturday</span>
-              </label>
+                <label for="cars">Choose a day:</label>
+              <select name="cars" id="cars">
+                <option value="Sunday">Sunday</option>
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+                <option value="Friday">Friday</option>
+                <option value="Saturday">Saturday</option>
+              </select>
                 </div>
               <!-- Raised button with ripple -->
               <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="convert()">
-                Convert
+                Enter
               </button>
               <br />
               <p>
-                <div id="celsius"></div>
+                <div id="answer"></div>
               </p>
             </th>
           </tr>          
