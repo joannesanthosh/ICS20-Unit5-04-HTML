@@ -14,7 +14,9 @@ if (navigator.serviceWorker) {
   })
 }
 
-  // input
+/**
+ * Input
+ */
 function convert() {
   let day = document.getElementById("days").value
   let age = parseInt(document.getElementById("age").value)
