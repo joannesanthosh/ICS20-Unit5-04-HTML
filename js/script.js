@@ -16,8 +16,8 @@ if (navigator.serviceWorker) {
 
   // input
 function convert() {
-  const day = document.getElementById("days").checked
-  const age = document.getElementById("age").checked
+  let day = document.getElementById("days").checked
+  let age = document.getElementById("age").checked
 
   // process
   if ((day == "Saturday" || day == "Sunday") || (age > 5 && age < 80 )) {
