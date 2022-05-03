@@ -18,14 +18,11 @@ if (navigator.serviceWorker) {
  * Input
  */
 function convert() {
-  let day = document.getElementById("days").value
-  let age = parseInt(document.getElementById("age").value)
-
-   var Saturday = document.getElementById("Saturday")
-   var Sunday = document.getElementById("Sunday")
+  var day = document.getElementById("day").value
+  var age = document.getElementById("age").value
 
   // process
-  if ((day == Saturday || day == Sunday) || (age > 5 && age < 80 )) {
+  if ((day == "Saturday" || day == "Sunday") && (age > 5 || age < 80 )) {
     document.getElementById("answer").innerHTML = "You're eligible to enter the museum."
   } else {
     document.getElementById("answer").innerHTML = "You're not eligible to enter the museum."
